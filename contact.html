@@ -15,19 +15,22 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="products.html">Products</a></li>
-            <li><a href="checkout.html">Check Out</a>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="checkout.html">Check Out</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>   
     </nav>
     <main>
     
-        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b>If you have any queries please provide your contact details and a short desctiption of your question.</b></p>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b>If you have any queries,please provide your contact details and a short desctiption of your question.</b></p>
 
         <form action="/action_page.php">
             <label for="fname">First name:</label><br>
             <input type="text" id="fname" name="fname" width="1000px"><br>
             <label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Mobile:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            
         </form>
     
         <form> 
@@ -37,9 +40,14 @@
 
             <br></br>
 
-          <p>Please type your query here  </p> 
+          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> <b> Please type your query here  </p> 
           
-          <textarea id="feedbackbox " name ="feedbackbox" rows="10" cols="50"></textarea>         
+          <textarea id="feedbackbox" name ="feedbackbox" rows="10" cols="50"></textarea> 
+          <br></br>
+
+
+          <input type="submit" value="Submit"> <input type="Reset" value="Reset">
+         
           </form> 
           
     </main>
